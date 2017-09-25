@@ -24,11 +24,11 @@ Validity checking assures that no object that would break the search, or a param
 Meaning that a team with negative funding would make no sense and is therefore forbidden.
 
 ## 4) 
--final correctness makes sure that the programmer or user does not modify arguments of a method which is in almost every case detrimental to the method. 
+final correctness makes sure that the programmer or user does not modify arguments of a method which is in almost every case detrimental to the method. 
 It is a safety feature/ reminder.
 
 ## 5)
--The alternative to using final is to have a set value of an int or string be used as a null value. 
+The alternative to using final is to have a set value of an int or string be used as a null value. 
 Ie. Using -1 as no value when you know all actual values are positive.
--The primary difference is confusion and checking for the specific value. 
+The primary difference is confusion and checking for the specific value. 
 For optionals, an empty value is recognized as no value by the program, while for using things like -1 only the programmer themselves know that -1 is a no value which can casue confusion.
